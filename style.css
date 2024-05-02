@@ -2689,13 +2689,13 @@
 
     #main-second-flex-right-100-left-details-mention::-webkit-scrollbar {
         display: none;
+        
     }
 
     #main-second-flex-right-100-left-details-mention {
-        /* margin: 0px 5vw; */
-        text-align: center;
         height: 100vh;
         overflow-y: scroll;
+        margin: 0px 8vw 0px 0px;
     }
 
     .ABOUT {
@@ -2706,55 +2706,57 @@
     .ABOUT p {
         margin-top: 10vh;
         font-weight: 600;
-        font-size: 1.50rem;
+        font-size: 1.25rem;
+        display: flex;
+        align-items: flex-start;
         color: var(--bold-content-color);
     }
 
     .ABOUT-Details {
         font-weight: 500;
-        font-size: 18.5px;
+        font-size: 1rem;
         color: var(--nonbold-content-color);
         margin-top: 3vh;
     }
 
     .ABOUT-Details div {
-        margin-bottom: 5vh;
+        margin-bottom: 5vh;;
     }
 
     #Third-Section {
-        margin: 0px 15px 15px 15px;
-        padding: 0px 10px 10px 10px;
+        padding: 0px 0px 0px 25px;
     }
-
 
     .Skills p {
         margin-top: 5vh;
         font-weight: 600;
-        font-size: 1.50rem;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 1.25rem;
         color: var(--bold-content-color);
     }
 
     .Skill-first-second {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         column-gap: 10px;
     }
 
-    #Skill-Flex-7to10-first {
-        padding: 0px 30px;
-    }
-
+    #Skill-Flex-7to10-first,
     #Skill-Flex-7to10-second {
-        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
-
 
 
     .PL-Heading {
         margin-top: 3vh;
         font-weight: 600;
-        font-size: 1.29rem;
+        font-size: 1.25rem;
         color: var(--bold-content-color);
     }
 
@@ -2772,13 +2774,19 @@
         background-color: var(--capsules-background-color);
         padding: 8px 10px;
         border-radius: 20px;
-        font-size: medium;
+        font-size: smaller;
+    }
+
+    .DB {
+        margin-top: 20px;
     }
 
     .DB-Heading {
         margin-top: 3vh;
         font-weight: 600;
-        font-size: 1.29rem;
+        font-size: 1.25rem;
+        display: flex;
+        align-items: flex-start;
         color: var(--bold-content-color);
     }
 
@@ -2796,13 +2804,15 @@
         background-color: var(--capsules-background-color);
         padding: 8px 10px;
         border-radius: 20px;
-        font-size: medium;
+        font-size: smaller;
     }
 
     .FW-Heading {
         margin-top: 3vh;
         font-weight: 600;
-        font-size: 1.29rem;
+        font-size: 1.25rem;
+        display: flex;
+        align-items: flex-start;
         color: var(--bold-content-color);
     }
 
@@ -2820,13 +2830,15 @@
         background-color: var(--capsules-background-color);
         padding: 8px 10px;
         border-radius: 20px;
-        font-size: medium;
+        font-size: smaller;
     }
 
     .DT-Heading {
         margin-top: 3vh;
         font-weight: 600;
-        font-size: 1.29rem;
+        display: flex;
+        align-items: flex-start;
+        font-size: 1.25rem;
         color: var(--bold-content-color);
     }
 
@@ -2844,7 +2856,7 @@
         background-color: var(--capsules-background-color);
         padding: 8px 10px;
         border-radius: 20px;
-        font-size: medium;
+        font-size: smaller;
     }
 
     .RESUME {
@@ -2881,7 +2893,9 @@
 
     .Projects>div:first-child {
         padding: 20px 0px 20px 0px;
-        font-size: 1.50rem;
+        font-size: 1.25rem;
+        display: flex;
+        align-items: flex-start;
         color: var(--bold-content-color);
 
     }
@@ -2889,12 +2903,12 @@
     .Project1-Overview-7to10-first div a {
         text-decoration: none;
         color: var(--bold-content-color);
-        font-size: 1.29rem;
+        font-size: 1.25rem;
     }
 
     .Project1-Overview-7to10-first div:last-child {
         font-weight: 500;
-        font-size: 18.5px;
+        font-size: 1rem;
         color: var(--nonbold-content-color);
         padding: 10px 0px 10px 0px;
         margin: 10px 0px 10px 0px;
@@ -2907,7 +2921,7 @@
 
 
     .Project1-Name-7to10-first div div a {
-        font-size: 1.29rem;
+        font-size: 1.25rem;
         font-weight: 600;
         color: var(--bold-content-color);
         text-decoration: none;
@@ -2915,7 +2929,7 @@
 
     .Project1-Name-7to10-first div:last-child {
         margin: 10px 0px 10px 0px;
-        font-size: 18.5px;
+        font-size: 1rem;
         font-weight: 500;
         color: var(--nonbold-content-color);
     }
@@ -2923,7 +2937,7 @@
     .Project1-Name-7to10-flex {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
     }
 
@@ -2944,7 +2958,7 @@
     .Project1-Name-7to10-second div div {
         padding: 8px 10px;
         text-align: center;
-        font-size: medium;
+        font-size: smaller;
         color: var(--capsules-content-color);
         background-color: var(--capsules-background-color);
         border-radius: 20px;
@@ -2957,12 +2971,12 @@
     .Project2-Overview-7to10-first div a {
         text-decoration: none;
         color: var(--bold-content-color);
-        font-size: 1.29rem;
+        font-size: 1.25rem;
     }
 
     .Project2-Overview-7to10-first div:last-child {
         font-weight: 500;
-        font-size: 18.5px;
+        font-size: 1rem;
         color: var(--nonbold-content-color);
         padding: 10px 0px 10px 0px;
         margin: 10px 0px 10px 0px;
@@ -2975,7 +2989,7 @@
 
 
     .Project2-Name-7to10-first div div a {
-        font-size: 1.29rem;
+        font-size: 1.25rem;
         font-weight: 600;
         color: var(--bold-content-color);
         text-decoration: none;
@@ -2983,7 +2997,7 @@
 
     .Project2-Name-7to10-first div:last-child {
         margin: 10px 0px 10px 0px;
-        font-size: 18.5px;
+        font-size: 1rem;
         font-weight: 500;
         color: var(--nonbold-content-color);
     }
@@ -3003,7 +3017,7 @@
     .Project2-Name-7to10-second div {
         height: auto;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         column-gap: 10px;
         flex-wrap: wrap;
@@ -3012,7 +3026,7 @@
     .Project2-Name-7to10-second div span {
         padding: 8px 10px;
         text-align: center;
-        font-size: medium;
+        font-size: smaller;
         color: var(--capsules-content-color);
         background-color: var(--capsules-background-color);
         border-radius: 20px;
@@ -3049,7 +3063,7 @@
     }
 
     #Fivth-Section>div:first-child {
-        font-size: 1.50rem;
+        font-size: 1.25rem;
         font-weight: 600;
         color: var(--bold-content-color);
     }
@@ -3070,7 +3084,7 @@
         text-decoration: none;
         display: flex;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         row-gap: 3vh;
         flex-direction: column-reverse;
     }
@@ -3080,17 +3094,17 @@
         box-sizing: border-box;
         border: 1px solid var(--nonbold-content-color);
         border-radius: 6px;
-        width: 15vw;
+        width: 12vw;
     }
 
     .Blog-1-Content div:first-child {
         color: var(--bold-content-color);
-        font-size: larger;
+        font-size: large;
 
     }
 
     .Blog-1-Content div:last-child {
-        font-size: 18.5px;
+        font-size: 1rem;
         color: var(--nonbold-content-color);
     }
 
@@ -3102,7 +3116,7 @@
         text-decoration: none;
         display: flex;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         row-gap: 3vh;
         flex-direction: column-reverse;
     }
@@ -3112,16 +3126,16 @@
         box-sizing: border-box;
         border: 1px solid var(--nonbold-content-color);
         border-radius: 6px;
-        width: 15vw;
+        width: 12vw;
     }
 
     .Blog-2-Content div:first-child {
         color: var(--bold-content-color);
-        font-size: larger;
+        font-size: large;
     }
 
     .Blog-2-Content div:last-child {
-        font-size: 18.5px;
+        font-size: 1rem;
         color: var(--nonbold-content-color);
     }
 
@@ -3187,7 +3201,7 @@
     .SkillUsed div {
         color: var(--nonbold-content-color);
         font-weight: 500;
-        font-size: 18.5px;
+        font-size: 1rem;
         text-align: center;
     }
 
